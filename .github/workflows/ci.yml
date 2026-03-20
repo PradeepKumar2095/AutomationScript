@@ -8,14 +8,15 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest  # Since you're on Windows
+    runs-on: windows-latest
 
     steps:
     - uses: actions/checkout@v3
-    - name: Set up Python (if needed)
+    - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
-    - name: Run tests or script
+    - name: Run all test scripts
       run: |
-        python run_test_pom.py  # Replace with your script command
+        python run_test_pom.py
+        for ($i=1; $i -le 21; $i++) { python "testscript$i.py" }
