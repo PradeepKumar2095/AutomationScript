@@ -1,0 +1,16 @@
+
+BASE_URL = "URL"
+Reports = 'xpath=/html/body/app-root/app-admin/div/reportslist/div/section/div/div/p-panel/div/div[2]/div[1]/form/div/div/div/drag-scroll/div/div[1]/div/div[1]/p-panel/div/div[2]/div/ig-tree/div/ul/li/ul'
+Report_Name = 'Non Covered Report'
+Facility_Group = 'xpath=/html/body/app-root/app-admin/div/reportslist/div/section/div/div/p-panel/div/div[2]/div[1]/form/div/div/div/drag-scroll/div/div[1]/div/div[2]/div/p-panel[1]/div/div[2]/div/div/div[2]/div/div/div/ng-select/div/div/div[2]/input'
+Facility_Group_Fill = 'FacGroup'
+Facility_Group_Dropdown = 'xpath=/html/body/app-root/app-admin/div/reportslist/div/section/div/div/p-panel/div/div[2]/div[1]/form/div/div/div/drag-scroll/div/div[1]/div/div[2]/div/p-panel[1]/div/div[2]/div/div/div[2]/div/div/div/ng-select/ng-dropdown-panel/div[2]'
+Start_Date = 'xpath=/html/body/app-root/app-admin/div/reportslist/div/section/div/div/p-panel/div/div[2]/div[1]/form/div/div/div/drag-scroll/div/div[1]/div/div[2]/div/p-panel[1]/div/div[2]/div/div/div[4]/div/div/div[1]/div/input'
+Start_Date_Fill = 'StartDate'
+End_Date = 'xpath=/html/body/app-root/app-admin/div/reportslist/div/section/div/div/p-panel/div/div[2]/div[1]/form/div/div/div/drag-scroll/div/div[1]/div/div[2]/div/p-panel[1]/div/div[2]/div/div/div[5]/div/div/div[1]/div/input'
+End_Date_Fill = 'EndDate'
+Submit = 'xpath=/html/body/app-root/app-admin/div/reportslist/div/section/div/div/p-panel/div/div[2]/div[2]/p-footer/div/div/button[1]'
+Confirmation_Message = 'xpath=/html/body/div[3]'
+Confirmation_Message_Text ='Reports moved to Queue. Please wait for reports to Generate.'
+Report_History = 'xpath=/html/body/app-root/app-admin/div/reporthistory/div/section/div[1]/drag-scroll/div/div[1]/div/div/p-panel/div/div[1]/p-header/div/span'
+Report_History_Header = 'Reports History'

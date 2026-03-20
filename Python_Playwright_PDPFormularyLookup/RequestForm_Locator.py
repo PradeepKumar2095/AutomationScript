@@ -1,0 +1,15 @@
+
+BASE_URL = "URL"
+Pharmacy_Field = 'xpath=/html/body/app-root/app-starter/div/div/app-admin-dashboard/div/section[2]/div/form/div/div/div/div/div[1]/div[2]/ng-select/div/div/div[2]/input'
+Pharmacy_Fill = 'PharmID'
+Pharmacy_Fill2 = 'PharmID'
+Pharmacy_Dropdown = 'xpath=/html/body/app-root/app-starter/div/div/app-admin-dashboard/div/section[2]/div/form/div/div/div/div/div[1]/div[2]/ng-select/ng-dropdown-panel/div[2]/div[2]'
+RxNo_Field = '#RxNo'
+Rxno_Fill = 'RxNo'
+Rxno_Fill2 = 'RxNo'
+ViewNonMatchedMB_GPI_Checkbox = '#chkNonMatchedMarketBasketNDC'
+Serach_Button = '#btnSearch'
+MOP = 'xpath=/html/body/app-root/app-starter/div/div/app-rx-formulary-lookuplist/div/div[2]/div[1]/div[7]'
+Plan_ID = 'xpath=/html/body/app-root/app-starter/div/div/app-rx-formulary-lookuplist/div/div[2]/div[2]/div[2]'
+Note = 'xpath=/html/body/app-root/app-starter/div/div/app-rx-formulary-lookuplist/div/div[2]/div[3]/div/div[1]/div[1]'
+Note_Text = '*Note - Only Medicare Part D plans and Michigan Medicaid are supported.'

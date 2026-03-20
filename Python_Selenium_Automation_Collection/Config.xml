@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PSSecureEmail>
+	<Login_Details>
+		<item name ="url">URL</item>
+		<item name ="username">Username</item>
+		<item name ="password">Password</item>
+		<item name="chromepath">WebDriverPath</item>
+	</Login_Details>
+	<patient_detail>
+		<item name='patid'>PatientID</item>
+	</patient_detail>
+</PSSecureEmail>
