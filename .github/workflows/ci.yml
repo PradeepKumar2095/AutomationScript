@@ -16,7 +16,11 @@ jobs:
       uses: actions/setup-python@v4
       with:
         python-version: '3.9'
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
     - name: Run all test scripts
       run: |
         python run_test_pom.py
         for ($i=1; $i -le 21; $i++) { python "testscript$i.py" }
+      shell: powershell
