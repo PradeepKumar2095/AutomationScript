@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Controlsubstance>
+	<Details>
+		<item name ="url">URL</item>
+		<item name="chromepath">WebDriverPath</item>
+		<item name="PharmacyID">PHARMID</item>
+		<item name="transactionrecordcount">Recordcount</item>
+		<item name="screenshotpath">ScreenshotPath/</item>
+	</Details>
+</Controlsubstance>

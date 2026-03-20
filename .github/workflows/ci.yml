@@ -1,0 +1,21 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: windows-latest  # Since you're on Windows
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python (if needed)
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+    - name: Run tests or script
+      run: |
+        python run_test_pom.py  # Replace with your script command
